@@ -1,1 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.about{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:40px;
+}
+
+.about img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+
+.skills,
+.projects,
+.resume,
+.contact{
+    padding:40px;
+}
+
+.skills ul{
+    list-style:none;
+}
+
+.skills li{
+    background:#0077cc;
+    color:white;
+    margin:10px 0;
+    padding:10px;
+    border-radius:5px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-top:15px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.resume a{
+    display:inline-block;
+    background:#0077cc;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:20px;
+}
 
